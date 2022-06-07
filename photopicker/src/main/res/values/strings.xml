@@ -1,13 +1,10 @@
 <resources>
     <string name="app_name">Photo Picker</string>
-    <string name="back">Back</string>
-    <string name="checked">Checked</string>
-    <string name="clear">Clear</string>
-    <string name="done">Done</string>
-    <string name="no_result">No search results</string>
-    <string name="photo">Photo</string>
-    <string name="photo_selected">1 photo selected</string>
-    <string name="photos_selected">%1$d photos selected</string>
-    <string name="search">Search free photos</string>
-    <string name="unsplash">Unsplash</string>
+
+    <!--Exposed strings - override in your app with desired string texts-->
+    <string name="unsplash_picker_string_no_result">No search results</string>
+    <string name="unsplash_picker_string_photo_selected">1 photo selected</string>
+    <string name="unsplash_picker_string_photos_selected">%1$d photos selected</string>
+    <string name="unsplash_picker_string_search_hint">Search free photos</string>
+    <string name="unsplash_picker_string_unsplash_title">Unsplash</string>
 </resources>

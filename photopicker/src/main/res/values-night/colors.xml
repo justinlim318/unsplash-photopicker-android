@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="unsplashPickerBackgroundColor">#000000</color>
+    <color name="unsplashPickerPrimaryTextColor">#ffffff</color>
+    <color name="unsplashPickerSecondaryTextColor">#71767F</color>
+    <color name="unsplashPickerAccentColor">@android:color/darker_gray</color>
+</resources>

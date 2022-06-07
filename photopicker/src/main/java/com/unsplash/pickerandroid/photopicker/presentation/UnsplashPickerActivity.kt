@@ -104,9 +104,9 @@ class UnsplashPickerActivity : AppCompatActivity(), OnPhotoSelectedListener {
         if (mIsMultipleSelection) {
             // update the title
             unsplash_picker_title_text_view.text = when (nbOfSelectedPhotos) {
-                0 -> getString(R.string.unsplash)
-                1 -> getString(R.string.photo_selected)
-                else -> getString(R.string.photos_selected, nbOfSelectedPhotos)
+                0 -> getString(R.string.unsplash_picker_string_unsplash_title)
+                1 -> getString(R.string.unsplash_picker_string_photo_selected)
+                else -> getString(R.string.unsplash_picker_string_photos_selected, nbOfSelectedPhotos)
             }
             // updating state
             if (nbOfSelectedPhotos > 0) {
@@ -194,7 +194,7 @@ class UnsplashPickerActivity : AppCompatActivity(), OnPhotoSelectedListener {
                 // keyboard down
                 unsplash_picker_edit_text.closeKeyboard(this)
                 // action bar with unsplash
-                unsplash_picker_title_text_view.text = getString(R.string.unsplash)
+                unsplash_picker_title_text_view.text = getString(R.string.unsplash_picker_string_unsplash_title)
                 // clear list selection
                 mAdapter.clearSelection()
                 mAdapter.notifyDataSetChanged()
