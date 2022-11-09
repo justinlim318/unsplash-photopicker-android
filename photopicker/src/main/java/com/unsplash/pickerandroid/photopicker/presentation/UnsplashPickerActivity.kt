@@ -69,6 +69,11 @@ class UnsplashPickerActivity : AppCompatActivity(), OnPhotoSelectedListener {
         mViewModel.bindSearch(unsplash_picker_edit_text)
     }
 
+    override fun onDestroy() {
+        mViewModel.clearSubscriptions()
+        super.onDestroy()
+    }
+
     /**
      * Observes the live data in the view model.
      */

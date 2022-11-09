@@ -51,6 +51,10 @@ class UnsplashPickerViewModel constructor(private val repository: Repository) : 
             })
     }
 
+    fun clearSubscriptions(){
+        onCleared()
+    }
+
     /**
      * To abide by the API guidelines,
      * you need to trigger a GET request to this endpoint every time your application performs a download of a photo
